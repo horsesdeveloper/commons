@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-apply plugin: "com.jfrog.bintray"
+/*apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: "com.jfrog.bintray"*/
 
 version = "1.0.5"
 
@@ -30,6 +30,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.0.0'
 }
 
+/*
 def siteUrl = 'https://github.com/horsesdeveloper/commons'
 def gitUrl = 'https://github.com/horsesdeveloper/commons.git'
 def library = 'com.horsesdeveloper:commons'
@@ -113,4 +114,4 @@ bintray {
             }
         }
     }
-}
+}*/

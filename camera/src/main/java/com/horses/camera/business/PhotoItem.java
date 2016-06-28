@@ -2,7 +2,6 @@ package com.horses.camera.business;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
 
 /**
  * @author Brian Salvattore
@@ -89,7 +88,7 @@ public class PhotoItem implements Parcelable, Comparable<PhotoItem> {
     }
 
     @Override
-    public int compareTo(@NonNull PhotoItem another) {
+    public int compareTo(PhotoItem another) {
         return (int) ((another.getDate() - date) / 1000);
     }
 }
