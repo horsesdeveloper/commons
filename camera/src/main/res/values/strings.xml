@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Camera</string>
+
+    <string name="dialog.content">Wait</string>
+    <string name="dialog.title">Processing&#8230;</string>
+    <string name="dialog.title.fail">Camera failed</string>
+    <string name="dialog.content.fail">Please try again later!</string>
+    <string name="title.gallery">Gallery</string>
+    <string name="title.album">Album</string>
+    <string name="title.cropper">Edit your photo</string>
+    <string name="title.not.yet">Photos are not yet available</string>
+    <string name="title.edit.check">Check</string>
+</resources>
